@@ -6,5 +6,5 @@ import react from "@vitejs/plugin-react";
 // - 커스텀 도메인을 쓰거나 "사용자명.github.io" 저장소(루트 사이트)라면 "/" 로 두세요.
 export default defineConfig({
   plugins: [react()],
-  base: process.env.BASE_PATH || "/",
+  base: process.env.BASE_PATH || "QR-Code-Generator",
 });
